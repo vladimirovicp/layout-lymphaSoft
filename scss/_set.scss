@@ -1,0 +1,16 @@
+*, ::after, ::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+
+body{
+
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #D6CAFF;
+    font-size: 24px;
+    min-width: 320px;
+}
