@@ -1,31 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lympha soft</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="header__logo">
-            <img src="./img/logo.svg" alt="лого">
-        </div>
+      <div class="header__logo">
+        <img src="./img/logo.svg" alt="лого" />
+      </div>
     </header>
 
     <main class="main">
+      <section class="hero">
+        <div class="wrapper">
+          <div class="box__btn">
+            <a href="#" class="shadowed">Скачать приложение SmartSleep</a>
+          </div>
 
+          <div class="hero__bottom">
+            <div class="hero__bottom-text">
+              Перед скачиванием - ознакомтесь с инструкцией использования
+              приложения
+            </div>
+            <div class="hero__bottom-btn">
+              <a href="#" class="to-bottom">></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="instructions">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img src="./img/instructions/01.png" alt="" />
+            </div>
+            <div class="col col__text-box">
+              <div class="instructions__text-box">
+                Запустите приложение и предоставьте наобходимые, для работы
+                устройства, разрешения
+              </div>
+              <div class="instructions__text-box">
+                При первом запуске приложения пользователю следует добавить
+                новое устройство. Для этого нужно перейти в настройки, нажав три
+                точки в правом верхнем углу главного экрана
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col__text-box">
+              <div class="instructions__text-box">
+                На странице настроек пользователю предоставляется возможность
+                выставить параметры процедуры - время процедуры и рабочий цикл
+                широтно-импульсной модуляции, а также выбрать язык
+              </div>
+            </div>
+
+            <div class="col">
+              <img src="./img/instructions/02.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="footer">
-
-    </footer>
-    
-</body>
+    <footer class="footer"></footer>
+  </body>
 </html>

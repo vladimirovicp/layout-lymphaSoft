@@ -14,3 +14,40 @@ body{
     font-size: 24px;
     min-width: 320px;
 }
+
+a{
+  text-decoration: none;
+}
+
+.container{
+ width: 100%;
+}
+
+.shadowed{
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 48px;
+}
+
+.row{
+  display: flex;
+}
+
+.col{
+  &__text{
+    &-box{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+}
+
+@media(min-width: 1400px){
+  .container{
+    width: 1400px;
+    margin: 0 auto;
+  }
+
+}
