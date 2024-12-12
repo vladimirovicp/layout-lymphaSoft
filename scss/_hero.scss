@@ -1,12 +1,31 @@
 .hero{
+    position: relative;
 
-    min-height: calc(100vh - 315px);
+    &__blot{
+        position: absolute;
+        z-index: 2;
+
+        &_1{
+            left: -461px;
+            top: 223px;
+        }
+    }
 
     .wrapper{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: calc(100vh - 315px); 
+        height: 100vh; 
+        position: relative;
+        z-index: 2;
+    
+    }
+
+    &__logo{
+        padding: 100px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     &__bottom{

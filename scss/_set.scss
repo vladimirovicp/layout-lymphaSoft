@@ -33,6 +33,12 @@ a{
   display: flex;
 }
 
+.centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .col{
   &__text{
     &-box{
@@ -42,6 +48,17 @@ a{
       align-items: center;
     }
   }
+}
+
+.main{
+  position: relative;
+}
+
+.background__front{
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: -webkit-fill-available;
 }
 
 @media(min-width: 1400px){

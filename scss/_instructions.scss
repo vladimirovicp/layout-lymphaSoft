@@ -1,4 +1,6 @@
 .instructions{
+    position: relative;
+    z-index: 2;
 
     &__text-box{
         width: 680px;
