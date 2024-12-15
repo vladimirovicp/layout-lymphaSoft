@@ -1,0 +1,96 @@
+.background {
+  &__front {
+    &-blot {
+      position: absolute;
+      z-index: 2;
+
+      &_1 {
+        left: -20%;
+        top: 25vh;
+        animation-duration: 10s;
+        animation-name: anima-front_1;
+      }
+
+      &_2 {
+        right: -100vh;
+        top: -100vh;
+        animation-duration: 10s;
+        animation-name: anima-front_2;
+      }
+      &_3 {
+        right: -60wv;
+        top: -150vh;
+        animation-duration: 10s;
+        animation-name: anima-front_3;
+      }
+      &_4 {
+        left: 20%;
+        top: 60vh;
+      }
+
+      &_6 {
+        left: -30vw;
+        top: -45vh;
+      }
+      &_7 {
+        right: -40vw;
+        top: 70vh;
+        z-index: 2;
+      }
+      &_8 {
+        right: 0;
+        top: 40vh;
+        z-index: 1;
+      }
+      &_9 {
+        left: 15vw;
+        top: 0;
+      }
+    }
+  }
+}
+
+@keyframes anima-front_1 {
+  0% {
+    left: -20%;
+    top: 25vh;
+  }
+  50% {
+    left: 80vw;
+    top: 50vh;
+  }
+  100% {
+    left: -20%;
+    top: 25vh;
+  }
+}
+
+@keyframes anima-front_2 {
+  0% {
+    right: -100vh;
+    top: -100vh;
+  }
+  50% {
+    right: 70vh;
+    top: 50vh;
+  }
+  100% {
+    right: -100vh;
+    top: -100vh;
+  }
+}
+
+@keyframes anima-front_3 {
+  0% {
+    right: -60wv;
+    top: -150vh;
+  }
+  50% {
+    right: -100wv;
+    top: 90vh;
+  }
+  100% {
+    right: -60wv;
+    top: -150vh;
+  }
+}

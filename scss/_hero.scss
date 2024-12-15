@@ -1,68 +1,56 @@
-.hero{
+.hero {
+  position: relative;
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
     position: relative;
+    z-index: 2;
+  }
 
-    &__blot{
-        position: absolute;
-        z-index: 2;
+  &__logo {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-        &_1{
-            left: -461px;
-            top: 223px;
-        }
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding-bottom: 30px;
+
+    &-text {
+      max-width: 495px;
+      text-align: center;
+      background-color: #fff;
+      padding: 10px 25px;
+      border-radius: 60px;
+      box-shadow: 0 0 20px 10px rgb(255 247 245 / 50%);
     }
+  }
 
-    .wrapper{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 100vh; 
-        position: relative;
-        z-index: 2;
-    
-    }
+  .box__btn {
+    text-align: center;
+  }
 
-    &__logo{
-        padding: 100px 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .to-bottom {
+    width: 44px;
+    height: 44px;
+    font-size: 48px;
+    color: #0a0a0a;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 10px;
 
-    &__bottom{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 25px;
-        padding-bottom: 30px;
-
-        &-text{
-            max-width: 495px;
-            text-align: center;
-            background-color: #fff;
-            padding: 10px 25px;
-            border-radius: 60px;
-            box-shadow: 0 0 20px 10px rgb(255 247 245 / 50%);
-        }
-    }
-
-    .box__btn{
-        text-align: center;
-    }
-
-    .to-bottom{
-        width: 44px;
-        height: 44px;
-        font-size: 48px;
-        color: #0A0A0A;
-        background-color: #fff;
-        border-radius: 24px;
-        padding: 10px;
-
-        display: flex;
-        transform: rotate(90deg);
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0 0 20px 10px rgb(255 247 245 / 50%);
-    }
+    display: flex;
+    transform: rotate(90deg);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px 10px rgb(255 247 245 / 50%);
+  }
 }
